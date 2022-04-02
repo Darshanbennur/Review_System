@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    top: 0;
+    left: 0;
+}
+
+body{
+    background-color:hsl(216, 12%, 8%);
+    font-family: 'Overpass';
+}
+
+main{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: hsl(213, 19%, 18%);
+    height: 20rem;
+    width: 23rem;
+    border-radius: 2rem;
+    padding: 1.5rem;
+}
+
+.thanks{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: hsl(213, 19%, 18%);
+    height: 20rem;
+    width: 23rem;
+    border-radius: 2rem;
+    padding: 1.5rem;
+    display: none;
+}
+
+.star{
+    background-color: rgb(45, 56, 68);
+    width: 1rem;
+    height: 1rem;
+    padding: 1rem;
+    border-radius: 50%;
+}
+
+h1{
+    margin-top: 1rem;
+    color:hsl(0, 0%, 100%);
+    font-weight: 700;
+}
+
+.para{
+    color: hsl(217, 12%, 63%);
+    margin-top: 1rem;
+    font-weight: 400;
+}
+
+.numbers{
+    display: flex;
+    justify-content: center;
+    margin-top: 1.2rem;
+    color: hsl(217, 12%, 63%);
+}
+
+.single{
+    background-color: rgb(45, 56, 68);
+    width: 1rem;
+    height: 1rem;
+    padding: 1rem;
+    border-radius: 50%;
+    margin-left: 1.8rem;
+    text-align: center;
+}
+
+.single:hover{
+    background-color: hsl(216, 12%, 54%);
+    color: white;
+    cursor: pointer;
+}
+
+.butt{
+    display: flex;
+    justify-content: center;
+    margin-top: 1.3rem;
+}
+
+.butto{
+    padding: 0.8rem;
+    width: 23rem;
+    border-radius: 2rem;
+    color: white;
+    background-color: hsl(25, 97%, 53%);
+}
+
+.butto:hover{
+    background-color: white;
+    color: hsl(25, 97%, 53%);
+    cursor: pointer;
+}
+
+.mobile input{
+    display: block;
+    margin: 0 auto;
+}
+
+.rater{
+    margin-top: 2rem;
+    margin-left: 5rem;
+    border-radius: 2rem;
+    text-align: center;
+    padding: 0.5rem;
+    width: 12rem;
+    background-color: rgb(45, 56, 68);
+}
+
+.rate{
+    color: hsl(25, 97%, 53%);
+}
+
+.greet{
+    text-align: center;
+    margin-top: 1rem;
+    color: white;
+    font-weight: 700;
+}
+
+.appri{
+    margin-top: 1rem;
+    color: hsl(217, 12%, 63%);
+    text-align: center;
+}
+
+.orange{
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+}
